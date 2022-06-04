@@ -1,0 +1,22 @@
+{
+  "name": "genoratereadme",
+  "version": "1.0.0",
+  "description": "A script for genorating readme.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeladeveloper/GenorateReadMe.git"
+  },
+  "author": "Angela W",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angeladeveloper/GenorateReadMe/issues"
+  },
+  "homepage": "https://github.com/angeladeveloper/GenorateReadMe#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
