@@ -7,7 +7,7 @@
  [licenses](#licenses)
 
 ## #Descrition: 
- Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor... 
+ I will write this later 
  
  Instillation: 
 
@@ -17,15 +17,15 @@
 ### Useage: 
  Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites. Lorem Ipsum best not make any more threats to your website. It will be met with fire and fury like the world has never seen
 
-## #licenses: 
+## #Licenses: 
  
- MIT
+ Apache License 2.0
 
 ## How to contribute: 
- Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you. You space bastard, you killed a pine.
+ No Contributing
 
 ## Guidelines: 
- Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ No Guidelines
 
 ## Questions: 
  If you have any questions, or would like to see more of my work, you can find my GitHub Profile  [here](https://github.com/github)
