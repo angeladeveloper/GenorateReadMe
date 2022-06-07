@@ -10,17 +10,17 @@ const wait = function (seconds) {
   })
 }
 
-wait(2)
+wait(1)
   .then(() => {
-    console.log("Welcome to my readMe genorator!".green)
-    return wait(2)
+    console.log("Welcome to README.md Generator v1.0.5!".bgWhite.black)
+    return wait(1)
   })
   .then(() => {
-    console.log(`You will be asked a series of quiestion about the what you need a README for, Then  let the program take care of the rest!`.magenta)
-    return wait(2)
+    console.log(`You will be asked a series of questions \n about the what you need a README for, \n then  let the program take care of the rest!`.bgWhite.black)
+    return wait(1)
   })
   .then(() => {
-    console.log("The README geneorator comes loaded with default responses, hit enter to apply any of these. \n Happy genorating!".blue);
+    console.log("The README Generator comes loaded with default responses,\n hit enter to apply any of these. \n Happy genorating!".bgWhite.black);
     return runInquirer()
   })
 
@@ -28,62 +28,74 @@ wait(2)
 function runInquirer() {
   inquirer
     .prompt([
-
       {
         type: 'input',
-        message: 'Write a descriotion for your app'.cyan,
+        message: 'What is the title of your project'.brightCyan,
+        name: 'title',
+        default: "Super Awesome APP 2.8 🤖"
+      },
+      {
+        type: 'input',
+        message: 'Write a descriotion for your app'.green,
         name: 'description',
         default: "I will write this later"
       },
       {
         type: 'input',
-        message: 'What packages do you need?'.green,
+        message: 'What packages do you need?'.brightCyan,
         name: 'packages',
-        default: 'Lookout flogging bilge rat main sheet bilge'
+        default: 'No packages required'
       },
       {
         type: 'input',
-        message: 'How do you use your app?'.cyan,
+        message: 'How do you use your app?'.green,
         name: 'useage',
-        default: "Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites. Lorem Ipsum best not make any more threats to your website. It will be met with fire and fury like the world has never seen"
+        default: "Instructions to come..."
       },
       {
         type: 'list',
-        message: 'What license would you like?'.green,
+        message: 'What license would you like?'.brightCyan,
         name: 'license',
         choices: ["MIT", "OPEN", "NONE", "GPLv3", "Apache License 2.0", "BSD"],
-        default: "MIT"
+        default: "NONE"
       },
       {
         type: 'input',
-        message: 'What is your Github username?'.cyan,
+        message: 'What is your Github username?'.green,
         name: 'gitHub',
-        default: "github"
+        default: "myUsername"
       },
       {
         type: 'input',
-        message: 'What is your email address?'.green,
+        message: 'What is your email address?'.brightCyan,
         name: 'email',
         default: "test@test.com"
       },
       {
         type: 'input',
-        message: 'How to contribute?'.cyan,
-        name: 'contribute',
-        default: "No Contributing"
+        message: 'Who else contributed to this project?'.green,
+        name: 'authors',
+        default: "N/A"
       },
       {
         type: 'input',
-        message: 'What are the guidelines?'.green,
+        message: 'How to contribute?'.green,
+        name: 'contribute',
+        default: "N/A"
+      },
+      {
+        type: 'input',
+        message: 'What are the guidelines?'.brightCyan,
         name: 'guidelines',
         default: "No Guidelines"
       },
       {
         type: 'input',
-        message: 'Do you have any tests?'.cyan,
+        message: 'Do you have any tests?'.green,
         name: 'tests',
         default: "NO"
       },
+
     ])
     .then((response) => {
       createMD(response)
