@@ -1,34 +1,33 @@
 # Super Awesome APP 2.8 🤖 
 
-## Table of Contents: 
+## Table of Contents 📑: 
 
- [Description](#Descrition) 
+ [Description](#Descrition)🪧 
 
- [licenses](#licenses) 
+ [licenses](#licenses)🔐 
 
- [contactMe](#contactMe)
+ [contactMe](#contactMe) 📬
 
 ## #Descrition: 
  I will write this later 
  
- Instillation: 
+ Instillation💾: 
 
-### Packages: 
+### Packages📦: 
  No packages required
 
-### Useage: 
+### Useage🔩: 
  Instructions to come...
 
-### Tests: 
+### Tests🧪: 
  NO
 
-## #Licenses: 
+## #Licenses🔐: 
  
- https://img.shields.io/badge/license-GPLv3-blue 
+ [](https://img.shields.io/badge/license-NONE-blue)
 
-## Questions:
+## Questions⁉️:
 
  #contactMe 
  If you have any questions, or would like to see more of my work, you can find my GitHub Profile  [here](https://github.com/myUsername)
  or reach out directly to my [email](emailtest@test.com)
- #contactMe
