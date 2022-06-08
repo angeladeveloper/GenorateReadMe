@@ -3,14 +3,13 @@ const inquirer = require('inquirer');
 const colors = require('colors');
 const createMD = require("./createMD")
 
-
 const wait = function (seconds) {
   return new Promise(function (resolve) {
     setTimeout(resolve, seconds * 1000)
   })
 }
 
-wait(1)
+wait(.5)
   .then(() => {
     console.log("Welcome to README.md Generator v1.0.5!".bgWhite.black)
     return wait(1)
@@ -39,6 +38,12 @@ function runInquirer() {
         message: 'Write a descriotion for your app'.green,
         name: 'description',
         default: "I will write this later"
+      },
+      {
+        type: 'input',
+        message: 'How do you install your app?'.green,
+        name: 'install',
+        default: "Installation instructions to come"
       },
       {
         type: 'input',
@@ -79,13 +84,7 @@ function runInquirer() {
       },
       {
         type: 'input',
-        message: 'How to contribute?'.green,
-        name: 'contribute',
-        default: "N/A"
-      },
-      {
-        type: 'input',
-        message: 'What are the guidelines?'.brightCyan,
+        message: 'What are the guidelines for contributing?'.brightCyan,
         name: 'guidelines',
         default: "No Guidelines"
       },
